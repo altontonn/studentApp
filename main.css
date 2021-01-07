@@ -1,0 +1,104 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(240, 198, 144);
+    font-family: 'Lora', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.main-box{
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px 40px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+.header i{
+    font-size: 28px;
+    margin: 0 10px;
+}
+.registration-form{
+padding: 20px 20px
+}
+.form-group-box{
+    padding: 8px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.form-group-box label{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.form-group-box input{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.form-group-box i{
+    position: absolute;
+    right: 20px;
+    top: 54px;
+    visibility: hidden;
+}
+.form-group-box small{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding: 3px;
+    visibility: hidden;
+}
+.form-group-box.success input{
+    border-color: green;
+}
+.form-group-box.danger input {
+    border-color: red;
+}
+.form-group-box.success small {
+    color: green;
+}
+
+.form-group-box.danger small {
+     color: red;
+    visibility: visible;
+}
+
+.form-group-box.success i.fa-check-circle {
+    visibility: visible;
+    color: green;
+}
+
+.form-group-box.danger i.fa-exclamation {
+    visibility: visible;
+    color: red;
+}
+
+button{
+    padding: 14px;
+    width: 100%;
+    color: #fff;
+    background-color: tomato;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid tomato;
+    margin: 10px 0;
+    font-size: 17px;
+}
